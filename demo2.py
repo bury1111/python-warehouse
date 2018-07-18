@@ -19,3 +19,4 @@ print(movies)
 
 print_lol(movies,2)
 
+print_lol(movies) #测试缺省参数level是否可用
