@@ -1,4 +1,4 @@
-def print_lol(the_list,level):
+def print_lol(the_list,level=0):
 	"""第一个参数为位置参数，可以为任意python列表
 	    第二个参数为遇到嵌套列表时候插入制表符名为"level"。"""
 	for each_item in the_list:
