@@ -29,8 +29,10 @@ try:
     print(other,file = other_file)
     print("已保存至文件~")
     
-    man_file.close() #记得关闭文件!
-    other_file.close()
+    
 except IOError :
     print('File error')
+finally:
+    man_file.close() #记得关闭文件!
+    other_file.close()
     
