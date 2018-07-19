@@ -1,11 +1,11 @@
-import os
+﻿import os
 
 os.getcwd()
 
-os.chdir('C:\\Users\\bury\Desktop\\HeadFirstPython\\chapter3')
+#os.chdir('C:\\Users\\bury\Desktop\\HeadFirstPython\\chapter3')
 
 try:
-                data = open('sketch.txt')
+                data = open('C:\\Users\\bury\Desktop\\HeadFirstPython\\chapter3\\sketch.txt')
                 
                 for each_line in data:
                         try:
